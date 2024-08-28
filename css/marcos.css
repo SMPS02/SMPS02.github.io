@@ -1,0 +1,44 @@
+.Marco1{
+
+   
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+
+}
+.Marco1::before{
+
+    
+        content: '';
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        right: -15px;
+        bottom: -15px;
+        background: linear-gradient(45deg, red, blue); 
+        z-index: -1;     
+}
+.Marco2{
+
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-top: 100px;
+    border-top: 15px solid blue;
+    border-bottom: 15px solid red;
+    border-left: 15px solid violet;
+    border-right: 15px solid #f59622;
+
+}
+p{
+
+    font-size: 20px;
+    font-weight: 700px;
+    color: white;
+    line-height: 250px;
+    text-align: center;
+
+}

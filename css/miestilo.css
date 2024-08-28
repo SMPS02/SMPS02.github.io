@@ -1,0 +1,52 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.colorheader{
+    background-color: rgb(103, 154, 170);
+    padding: 10px;
+}
+.colorimage{
+
+    width: 100px;
+}
+#Enviar{
+
+    background-color: rgb(255, 102, 0);
+    color: black;
+}
+#selectT{
+
+    background-color: rgb(10, 140, 216);
+    color: rgb(0, 0, 0);
+    width: 70px;
+}
+#selectTT{
+
+    background-color: rgb(10, 140,216);
+    color: rgb(0, 0, 0);
+    width: 85px;
+
+}
+.contenedor{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.contenidoD{
+
+    display: flex;
+    align-items: center;
+
+}
+.contenidoD select,
+.contenidoD input {
+    margin-left: 10px; 
+}
+
+

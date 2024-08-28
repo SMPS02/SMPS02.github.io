@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    
+}
+body{
+
+    font-family: 'Times NDew Roman', Times, serif;
+    background-color: black;
+}
+
+main{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(114, 255, 114);
+
+
+}
+.biocolor{
+
+    background-color: rgb(102, 11, 102);
+    padding: 20px;
+    
+
+}
+
+.Header{
+
+    font-size: 35px;
+    color: white;
+    margin-left: 60px;
+}
+.miimagen{
+
+    width: 450px;
+    height: 450px;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pie{
+
+    padding: 50px;
+    background-color: rgb(102, 11, 102);
+
+}
+#pies{
+
+    font-size: 20px;
+    margin-left: 60px;
+    color: white;
+}
+#piess{
+
+    font-size: 15px;
+    color: white;
+    margin-left: 60px;
+
+}
+#biog{
+
+    font-size: 25px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 70px;;
+    
+
+}
+#lin{
+    background-color: rgb(143,143,143);
+    padding: 3px;
+    margin: 2px;
+    width: 96%;
+    margin-left: 30px;
+}
+.text
+{
+
+    text-align: justify;
+    margin-left: 30px;
+    width: 95%;
+}
+.face{
+ 
+    width: 30px;
+    margin-left: 800px;
+   
+}
+.ig{
+ 
+    width: 30px;
+    margin-left: 800px;
+    
+   
+}
